@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- frame_1 strings -->
+
+	<string name="app_name">Page 1</string>
+	<string name="ek_img_content">ExportKit Image</string>
+	<string name="agent_asm_string">Agent ASM</string>
+	<string name="pr_nom_string">Prnom</string>
+	<string name="adresse_string">Adresse</string>
+	<string name="contacte_string">Contacte</string>
+	<string name="zone_string">Zone</string>
+	<string name="nom_string">Nom</string>
+	<string name="choose_zone">Choose your zone</string>
+
+	<string-array name="zone_array">Selectionner une zone
+		<item>Zone Ben Arous</item>
+		<item>Zone Sousse</item>
+		<item>Zone Jerba</item>
+	</string-array>
+
+</resources>

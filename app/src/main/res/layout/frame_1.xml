@@ -1,0 +1,243 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+	<!-- 
+	/*
+	 *	This content is generated from the API File Info.
+	 *	(Alt+Shift+Ctrl+I).
+	 *
+	 *	@desc 		
+	 *	@file 		frame_1
+	 *	@date 		Friday 05th of May 2023 01:33:08 PM
+	 *	@title 		Page 1
+	 *	@author 	
+	 *	@keywords 	
+	 *	@generator 	Export Kit v1.3.figma
+	 *
+	 */
+	-->
+	<ScrollView android:id="@+id/frame_1" 
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" >
+
+
+
+
+		<RelativeLayout android:id="@+id/content_container" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" >
+
+			<HorizontalScrollView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content">
+
+			<RelativeLayout android:id="@+id/page_frame_1_ek1"
+				android:layout_marginTop="10dp"
+				android:layout_marginStart="-9dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<View   android:id="@+id/_bg__frame_1_ek2"
+					android:background="@drawable/_bg__frame_1_ek2_shape"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="414dp"
+					android:layout_height="736dp" />
+
+
+				<RelativeLayout android:id="@+id/____icon__arrow_down_"
+					android:layout_marginTop="549dp"
+					android:layout_marginStart="321dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					/>
+
+
+				<RelativeLayout android:id="@+id/iphone_8_plus___3"
+					android:layout_marginTop="0dp"
+					android:layout_marginStart="0dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<ImageView android:id="@+id/image_1"
+						android:src="@drawable/image_1"
+						android:contentDescription="image_1"
+						 android:layout_marginStart="-83dp"
+						android:layout_marginTop="-2dp"
+						android:layout_width="567dp"
+						android:layout_height="756dp" />
+
+
+					<RelativeLayout android:id="@+id/____icon__tick_circle_"
+						android:layout_marginTop="612dp"
+						android:layout_marginStart="189dp"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						>
+
+						<ImageView android:id="@+id/vector_ek1"
+							android:src="@drawable/tickregistreradmin"
+							android:contentDescription="vector_ek1"
+							android:layout_marginStart="0dp"
+							android:layout_marginTop="0dp"
+							android:clickable="true"
+							android:onClick="onclickOk"
+							android:layout_width="50dp"
+							android:layout_height="50dp"
+							/>
+
+					</RelativeLayout>
+
+
+					<RelativeLayout android:id="@+id/____icon__play_"
+						android:layout_marginTop="695dp"
+						android:layout_marginStart="358dp"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						/>
+
+					<ImageView android:id="@+id/vector_ek3"
+						android:src="@drawable/vector_ek3"
+						android:contentDescription="vector_ek3"
+						 android:layout_marginStart="-36dp"
+						android:layout_marginTop="-67dp"
+						android:layout_width="343dp"
+						android:layout_height="296dp" />
+
+					<ImageView android:id="@+id/vector_ek4"
+						android:src="@drawable/vector_ek4"
+						android:contentDescription="vector_ek4"
+						 android:layout_marginStart="-57dp"
+						android:layout_marginTop="-34dp"
+						android:layout_width="321dp"
+						android:layout_height="296dp" />
+
+					<TextView
+						android:id="@+id/agent_asm"
+						android:layout_width="173.5dp"
+						android:layout_height="47.5dp"
+						android:layout_marginLeft="136dp"
+						android:layout_marginTop="51dp"
+						android:text="@string/agent_asm_string"
+						android:textColor="@color/white"
+						android:textSize="25sp" />
+
+					<View   android:id="@+id/rectangle_3"
+						android:background="@drawable/rectangle_3_shape"
+						 android:layout_marginStart="27dp"
+						android:layout_marginTop="252dp"
+						android:layout_width="348dp"
+						android:layout_height="57dp" />
+
+					<EditText
+						android:id="@+id/EmailAgent"
+						android:layout_width="322dp"
+						android:layout_height="53dp"
+						android:layout_marginLeft="48dp"
+						android:layout_marginTop="253dp"
+						android:backgroundTint="#00FFFFFF"
+						android:hint="Tel Agent"
+						android:textColorHint="@android:color/white"
+
+						android:textColor="@color/pr_nom_color"
+						android:textSize="25sp"
+						tools:ignore="DuplicateIds" />
+
+					<View   android:id="@+id/rectangle_4"
+						android:background="@drawable/rectangle_4_shape"
+						 android:layout_marginStart="27dp"
+						android:layout_marginTop="342dp"
+						android:layout_width="348dp"
+						android:layout_height="57dp" />
+
+					<EditText
+						android:id="@+id/Motdepassagent"
+						android:layout_width="322dp"
+						android:layout_height="53dp"
+						android:layout_marginLeft="48dp"
+						android:layout_marginTop="343dp"
+						android:backgroundTint="#00FFFFFF"
+						android:hint="Code Agent"
+						android:textColorHint="@android:color/white"
+						android:textColor="@color/pr_nom_color"
+						android:textSize="25sp"
+						tools:ignore="DuplicateIds" />
+
+					<View   android:id="@+id/rectangle_5"
+						android:background="@drawable/rectangle_5_shape"
+						 android:layout_marginStart="27dp"
+						android:layout_marginTop="432dp"
+						android:layout_width="348dp"
+						android:layout_height="57dp" />
+
+					<EditText
+						android:id="@+id/TelAgent"
+						android:layout_width="322dp"
+						android:layout_height="53dp"
+						android:layout_marginLeft="48dp"
+						android:layout_marginTop="433dp"
+						android:backgroundTint="#00FFFFFF"
+						android:hint="Mot de pass"
+						android:textColorHint="@android:color/white"
+						android:textColor="@color/pr_nom_color"
+						android:textSize="25sp"
+						tools:ignore="DuplicateIds" />
+
+					<View   android:id="@+id/rectangle_6"
+						android:background="@drawable/rectangle_6_shape"
+						 android:layout_marginStart="27dp"
+						android:layout_marginTop="522dp"
+						android:layout_width="348dp"
+						android:layout_height="57dp" />
+
+					<RelativeLayout
+						android:id="@+id/rectangle_111"
+						android:layout_marginStart="48dp"
+						android:layout_marginTop="522dp"
+						android:layout_width="322dp"
+						android:layout_height="57dp">
+
+						<Spinner
+							android:id="@+id/zone_spinner"
+							android:layout_width="match_parent"
+							android:layout_height="match_parent"
+							android:contentDescription="@string/choose_zone"
+							android:prompt="@string/choose_zone"
+							android:textColorHint="@android:color/white"
+							android:tint="@android:color/white"
+							android:textColor="@android:color/white"
+
+							android:textSize="30sp"/>
+
+					</RelativeLayout>
+
+
+					<View   android:id="@+id/rectangle_2"
+						android:background="@drawable/rectangle_2_shape"
+						 android:layout_marginStart="27dp"
+						android:layout_marginTop="162dp"
+						android:layout_width="348dp"
+						android:layout_height="57dp" />
+
+					<EditText
+						android:id="@+id/NomPrenom"
+						android:layout_width="322dp"
+						android:layout_height="53dp"
+						android:layout_marginLeft="48dp"
+						android:layout_marginTop="163dp"
+						android:backgroundTint="#00FFFFFF"
+						android:hint="Nom Agent"
+						android:textColorHint="@android:color/white"
+					android:textColor="@color/pr_nom_color"
+						android:textSize="25sp"
+						tools:ignore="DuplicateIds" />
+
+				</RelativeLayout>
+
+			</RelativeLayout>
+			</HorizontalScrollView>
+		</RelativeLayout>
+
+	</ScrollView>
+</HorizontalScrollView>

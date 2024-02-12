@@ -1,0 +1,135 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="wrap_content" >
+
+
+    <ScrollView android:id="@+id/iphone_8_plus___4"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout android:id="@+id/content_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+
+
+            <RelativeLayout android:id="@+id/page_iphone_8_plus___4_ek1"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="-20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+
+                <View   android:id="@+id/_bg__iphone_8_plus___4_ek2"
+                    android:background="@drawable/_bg__iphone_8_plus___4_ek2_shape"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_width="414dp"
+                    android:layout_height="736dp" />
+
+                <ImageView android:id="@+id/image_1"
+                    android:src="@drawable/image_1"
+                    android:contentDescription="image_1"
+                    android:layout_marginStart="-77dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_width="567dp"
+                    android:layout_height="756dp" />
+
+                <ImageView android:id="@+id/vector"
+                    android:src="@drawable/vector"
+                    android:contentDescription="vector"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="75dp"
+                    android:layout_width="343dp"
+                    android:layout_height="296dp" />
+
+                <ImageView android:id="@+id/vector_ek1"
+                    android:src="@drawable/vector_ek1"
+                    android:contentDescription="vector_ek1"
+                    android:layout_marginStart="-89dp"
+                    android:layout_marginTop="182dp"
+                    android:layout_width="321dp"
+                    android:layout_height="296dp" />
+
+                <View   android:id="@+id/rectangle_4"
+                    android:background="@drawable/rectangle_4_shape"
+                    android:layout_marginStart="112dp"
+                    android:layout_marginTop="365dp"
+                    android:layout_width="190dp"
+                    android:layout_height="57dp" />
+
+                <EditText
+                    android:id="@+id/passAgent"
+                    android:layout_width="174dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="120dp"
+                    android:layout_marginTop="382dp"
+                    android:background="#00FFFFFF"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:hint="Mot de passe "
+                    android:textColorHint="@android:color/white"
+
+                    android:textColor="#FFFFFF"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+
+                <RelativeLayout android:id="@+id/____icon__tick_circle_"
+                    android:layout_marginTop="459dp"
+                    android:layout_marginStart="188dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <ImageView
+                        android:id="@+id/vector_ek2"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="0dp"
+                        android:clickable="true"
+                        android:contentDescription="vector_ek2"
+                        android:onClick="onClickuser"
+                        android:src="@drawable/vector_ek2"
+                        tools:ignore="TouchTargetSizeCheck" />
+
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/agent_asm"
+                    android:layout_width="173.5dp"
+                    android:layout_height="47.5dp"
+                    android:layout_marginLeft="136dp"
+                    android:layout_marginTop="51dp"
+                    android:text="@string/agent_asm_string"
+                    android:textColor="@color/white"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <View   android:id="@+id/rectangle_3"
+                    android:background="@drawable/rectangle_3_shape"
+                    android:layout_marginStart="112dp"
+                    android:layout_marginTop="270dp"
+                    android:layout_width="190dp"
+                    android:layout_height="57dp" />
+
+                <EditText
+                    android:id="@+id/CodeAgent"
+                    android:layout_width="174dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="120dp"
+                    android:layout_marginTop="287dp"
+                    android:background="#00FFFFFF"
+                    android:ems="10"
+                    android:textColorHint="@android:color/white"
+
+                    android:inputType="textPersonName"
+                    android:hint="Code Agent"
+                    android:textColor="#FFFFFF"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+    </ScrollView>
+</HorizontalScrollView>

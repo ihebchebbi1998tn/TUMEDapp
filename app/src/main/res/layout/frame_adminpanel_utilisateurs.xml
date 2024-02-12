@@ -1,0 +1,107 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+	<!-- 
+	/*
+	 *	This content is generated from the API File Info.
+	 *	(Alt+Shift+Ctrl+I).
+	 *
+	 *	@desc 		
+	 *	@file 		frame_1
+	 *	@date 		Friday 05th of May 2023 01:33:08 PM
+	 *	@title 		Page 1
+	 *	@author 	
+	 *	@keywords 	
+	 *	@generator 	Export Kit v1.3.figma
+	 *
+	 */
+	-->
+	<ScrollView android:id="@+id/frame_1" 
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" >
+
+
+
+
+		<RelativeLayout android:id="@+id/content_container" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" >
+
+			<HorizontalScrollView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content">
+
+			<RelativeLayout android:id="@+id/page_frame_1_ek1"
+				android:layout_marginTop="10dp"
+				android:layout_marginStart="-9dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<View   android:id="@+id/_bg__frame_1_ek2"
+					android:background="@drawable/_bg__frame_1_ek2_shape"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="414dp"
+					android:layout_height="736dp" />
+
+
+				<RelativeLayout android:id="@+id/____icon__arrow_down_"
+					android:layout_marginTop="549dp"
+					android:layout_marginStart="321dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					/>
+
+
+				<RelativeLayout android:id="@+id/iphone_8_plus___3"
+					android:layout_marginTop="0dp"
+					android:layout_marginStart="0dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<ImageView android:id="@+id/image_1"
+						android:src="@drawable/image_1"
+						android:contentDescription="image_1"
+						 android:layout_marginStart="-83dp"
+						android:layout_marginTop="-2dp"
+						android:layout_width="567dp"
+						android:layout_height="756dp" />
+
+
+					<LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="match_parent"
+						android:orientation="vertical">
+
+						<!-- Add a text view with white text and a large font size -->
+						<TextView
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:text="Liste des utilisateurs"
+							android:textColor="@android:color/white"
+							android:textSize="30sp"
+							android:gravity="center"/>
+
+						<!-- Add a list view with columns for name, email, phone, and a delete button -->
+						<ListView
+							android:id="@+id/user_list"
+							android:layout_width="match_parent"
+							android:layout_height="0dp"
+							android:layout_weight="1"
+							android:divider="@null"
+							android:dividerHeight="0dp"
+							android:padding="16dp"
+							android:background="@android:color/white"/>
+
+					</LinearLayout>
+
+
+				</RelativeLayout>
+
+			</RelativeLayout>
+			</HorizontalScrollView>
+		</RelativeLayout>
+
+	</ScrollView>
+</HorizontalScrollView>
